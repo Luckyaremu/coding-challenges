@@ -7,3 +7,10 @@ class Node
       @next_node = next_node
     end
   end
+
+  # LinkedList class
+    class LinkedList
+    # setup head and tail
+    def initialize
+      @list = []
+    end
