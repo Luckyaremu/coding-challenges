@@ -14,3 +14,13 @@ class Node
     def initialize
       @list = []
     end
+
+    def add(number)
+        # your code here
+        @list.push(number)
+      end
+    
+      def get(index)
+        # your code here
+        @list[index]
+      end
