@@ -24,3 +24,12 @@ class Node
         # your code here
         @list[index]
       end
+
+      def add_at(index, item)
+        @list.insert(index, item)
+      end
+    
+      def remove(index)
+        @list.delete_at(index)
+      end
+    
