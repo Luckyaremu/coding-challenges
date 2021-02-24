@@ -19,9 +19,16 @@ class Node
         # your code here
         @list.push(number)
     end
-    
+
     def get(index)
         # your code here
         @list[index]
       end
     end
+
+    list = LinkedList.new
+
+    list.add(3)
+    list.add(5)
+    puts list.get(1)
+    # => 5
