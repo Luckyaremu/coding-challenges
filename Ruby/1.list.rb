@@ -8,3 +8,9 @@ class Node
     end
   end
   
+  # LinkedList class
+    class LinkedList
+    # setup head and tail
+    def initialize
+      @list = []
+    end
