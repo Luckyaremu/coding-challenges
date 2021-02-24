@@ -32,4 +32,12 @@ class Node
       def remove(index)
         @list.delete_at(index)
       end
+      private
+
+  def get_node(index)
+    Node.new(index)
+  end
+end
+
+list = LinkedList.new
     
