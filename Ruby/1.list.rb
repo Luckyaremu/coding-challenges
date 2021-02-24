@@ -14,3 +14,8 @@ class Node
     def initialize
       @list = []
     end
+
+    def add(number)
+        # your code here
+        @list.push(number)
+    end
