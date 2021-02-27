@@ -28,4 +28,7 @@ class Node
       end
     
       private
-    
+      def get_node(index)
+        Node.new(index)
+      end
+      end
