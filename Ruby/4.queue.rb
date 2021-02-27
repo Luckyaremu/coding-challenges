@@ -49,3 +49,11 @@ class Stack
     end
     
     # Queue class
+    class Queue
+        def initialize
+          @queue = LinkedList.new
+        end
+      
+        def add(number)
+          @queue.add_at(0, number)
+        end
