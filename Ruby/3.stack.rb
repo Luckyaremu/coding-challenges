@@ -32,3 +32,12 @@ class Node
         Node.new(index)
       end
       end
+      # Stack class
+class Stack
+    def initialize
+      @stack = LinkedList.new
+    end
+  
+    def push(number)
+      @stack.add(number)
+    end
