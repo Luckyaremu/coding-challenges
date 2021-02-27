@@ -7,3 +7,12 @@ class Node
       @next_node = next_node
     end
   end
+  # LinkedList class
+    class LinkedList
+    def initialize
+      @list = []
+    end
+  
+    def add(number)
+      @list.push(number)
+    end
