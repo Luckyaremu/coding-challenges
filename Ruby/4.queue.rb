@@ -23,3 +23,13 @@ class LinkedList
       def add_at(index, item)
         @list.insert(index, item)
       end
+      def remove(index)
+        @list.delete_at(index)
+      end
+    
+      private
+    
+      def get_node(index)
+        Node.new(index)
+      end
+    end
