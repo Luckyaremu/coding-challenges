@@ -43,3 +43,9 @@ class Stack
     def push(number)
       @stack.add(number)
     end
+    def pop
+        @stack.remove(-1)
+      end
+    end
+    
+    # Queue class
