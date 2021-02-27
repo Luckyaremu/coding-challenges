@@ -16,3 +16,10 @@ class LinkedList
     def add(number)
       @list.push(number)
     end
+    def get(index)
+        @list[index]
+      end
+    
+      def add_at(index, item)
+        @list.insert(index, item)
+      end
