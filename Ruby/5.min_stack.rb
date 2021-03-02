@@ -6,3 +6,6 @@ class Stack
     def push(number)
         @stack.push(number)
       end
+      def pop
+        @stack.pop
+      end
