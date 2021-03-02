@@ -9,3 +9,7 @@ class Stack
       def pop
         @stack.pop
       end
+      def min
+        @stack.min
+      end
+    end
