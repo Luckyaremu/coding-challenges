@@ -23,3 +23,7 @@ stack.pop
 stack.push(7)
 puts stack.min
 # => 3
+
+stack.push(2)
+puts stack.min
+# => 2
