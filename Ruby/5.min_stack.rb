@@ -13,3 +13,8 @@ class Stack
         @stack.min
       end
     end
+    stack = Stack.new
+stack.push(3)
+stack.push(5)
+puts stack.min
+# => 3
