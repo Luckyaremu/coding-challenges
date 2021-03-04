@@ -12,3 +12,5 @@ def balanced_brackets?(string)
 end
 puts balanced_brackets?('(hello)[world]')
 # => true
+puts balanced_brackets?('([)]')
+# => false
