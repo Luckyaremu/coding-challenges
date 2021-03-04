@@ -10,3 +10,5 @@ def balanced_brackets?(string)
   end
   arr.empty?
 end
+puts balanced_brackets?('(hello)[world]')
+# => true
