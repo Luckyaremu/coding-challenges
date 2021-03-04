@@ -5,3 +5,8 @@ def balanced_brackets?(string)
       if i.match(/[\[|\{|\(]/)
         arr << i
       elsif i.match(/[\]|\}|\)]/)
+        return false if hash[arr.pop] != i
+    end
+  end
+  arr.empty?
+end
