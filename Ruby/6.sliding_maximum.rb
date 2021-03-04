@@ -14,3 +14,5 @@ def sliding_maximum(key, array)
       end
       bigs
     end
+    sliding_maximum(3, [1, 3, 5, 7, 9, 2])
+# => [5, 7, 9, 9]
