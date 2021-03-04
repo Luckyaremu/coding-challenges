@@ -9,3 +9,8 @@ def sliding_maximum(key, array)
           big = array[j + 1] if big <= array[j + 1]
           j += 1
         end
+        bigs.push(big)
+        i += 1
+      end
+      bigs
+    end
